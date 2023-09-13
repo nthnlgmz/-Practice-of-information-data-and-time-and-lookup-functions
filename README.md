@@ -305,16 +305,6 @@ holidays - [optional] A list dates that should be considered non working days.</
 
 
 
-
-
-
-
-
-
-
-
-
-
 # Lookup-Functions
 
 <b>LOOKUP Function</b><br>
