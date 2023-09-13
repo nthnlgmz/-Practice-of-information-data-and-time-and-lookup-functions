@@ -16,6 +16,6 @@
 <b><i>table_array</b></i>: The range of cells that contains the data you want to search in. This range should include the leftmost column and the column from which you want to retrieve data.<br>
 <b><i>col_index_num</b></i>: The column number from which you want to retrieve data (1 for the leftmost column, 2 for the second column, and so on).<br>
 <b><i>[range_lookup]</b></i>: An optional argument that can be set to TRUE (approximate match) or FALSE (exact match). If omitted or set to TRUE, VLOOKUP will perform an approximate match, and if set to FALSE, it will perform an exact match.<br>
->👉<b><i>VLOOKUP</b></i> is commonly used for vertical data lookup, such as searching for information in a table based on a unique identifier.
-![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/91901cff-2448-4cf9-830f-9a7684afdfa7)
+>👉<b><i>VLOOKUP</b></i> is commonly used for vertical data lookup, such as searching for information in a table based on a unique identifier.<br>
+>![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/91901cff-2448-4cf9-830f-9a7684afdfa7)
 
