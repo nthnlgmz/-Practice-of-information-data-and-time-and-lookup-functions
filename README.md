@@ -7,7 +7,7 @@
 <b><i>lookup_vector</b></i>: The range of cells that contains the values you want to search within.<br>
 <b><i>result_vector</b></i>: The range of cells that contains the corresponding values you want to retrieve.<br>
 >👉The <b><i>LOOKUP</b></i> function is not case-sensitive and assumes the data in the lookup_vector is sorted in ascending order. If the data is not sorted, it may return unexpected results.<br>
-![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/c918b24c-a97e-42c4-9a91-f3b7f82d6ee7)
+>![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/c918b24c-a97e-42c4-9a91-f3b7f82d6ee7)
 
 <b>VLOOKUP Function</b><br>
 >👉The VLOOKUP function (Vertical Lookup) is used to search for a value in the leftmost column of a table and return a corresponding value from a specified column to the right.<br>
