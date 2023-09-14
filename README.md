@@ -314,15 +314,80 @@ holidays - [optional] A list dates that should be considered non working days.</
 <b><i>lookup_vector</b></i>: The range of cells that contains the values you want to search within.<br>
 <b><i>result_vector</b></i>: The range of cells that contains the corresponding values you want to retrieve.<br>
 >👉The <b><i>LOOKUP</b></i> function is not case-sensitive and assumes the data in the lookup_vector is sorted in ascending order. If the data is not sorted, it may return unexpected results.<br>
->![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/c918b24c-a97e-42c4-9a91-f3b7f82d6ee7)
+>![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/c918b24c-a97e-42c4-9a91-f3b7f82d6ee7)<br>
 
 <b>VLOOKUP Function</b><br>
->👉The VLOOKUP function (Vertical Lookup) is used to search for a value in the leftmost column of a table and return a corresponding value from a specified column to the right.<br>
+>👉The <b><i>VLOOKUP</b></i> function (Vertical Lookup) is used to search for a value in the leftmost column of a table and return a corresponding value from a specified column to the right.<br>
 >👉Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])<br>
 <b><i>lookup_value</b></i>: The value you want to find in the leftmost column of the table_array.<br>
 <b><i>table_array</b></i>: The range of cells that contains the data you want to search in. This range should include the leftmost column and the column from which you want to retrieve data.<br>
 <b><i>col_index_num</b></i>: The column number from which you want to retrieve data (1 for the leftmost column, 2 for the second column, and so on).<br>
 <b><i>[range_lookup]</b></i>: An optional argument that can be set to TRUE (approximate match) or FALSE (exact match). If omitted or set to TRUE, VLOOKUP will perform an approximate match, and if set to FALSE, it will perform an exact match.<br>
 >👉<b><i>VLOOKUP</b></i> is commonly used for vertical data lookup, such as searching for information in a table based on a unique identifier.<br>
->![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/91901cff-2448-4cf9-830f-9a7684afdfa7)
+>![image](https://github.com/nthnlgmz/Lookup-Functions/assets/143614589/91901cff-2448-4cf9-830f-9a7684afdfa7)<br>
+
+<b>HLOOKUP Function</b><br>
+>👉The <b><i>HLOOKUP</b></i> function (Horizontal Lookup) is similar to VLOOKUP, but it searches for a value in the topmost row of a table and returns a corresponding value from a specified row below.<br>
+>👉Syntax: =HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])<br>
+<b><i>lookup_value</b></i>: The value you want to find in the topmost row of the table_array.<br>
+<b><i>table_array</b></i>: The range of cells that contains the data you want to search in. This range should include the topmost row and the row from which you want to retrieve data.<br>
+<b><i>row_index_num</b></i>: The row number from which you want to retrieve data (1 for the topmost row, 2 for the second row, and so on).<br>
+<b><i>[range_lookup]</b></i>: An optional argument that can be set to TRUE (approximate match) or FALSE (exact match). If omitted or set to TRUE, HLOOKUP will perform an approximate match, and if set to FALSE, it will perform an exact match.<br>
+>👉<b><i>HLOOKUP</b></i> is typically used when your data is organized horizontally, and you need to retrieve information based on a criteria value found in the top row.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/62f4efc5-4768-49f5-bbdf-18090b7dd3ea)<br>
+
+<b>MATCH Function</b><br>
+>👉The <b><i>MATCH</b></i> function is used to search for a specific value in a range of cells and return the relative position of that value within the range.<br>
+>👉Syntax: =MATCH(lookup_value, lookup_array, [match_type])<br>
+<b><i>lookup_value</b></i>: The value you want to find within the lookup_array.<br>
+<b><i>lookup_array</b></i>: The range of cells in which you want to search for the lookup_value.<br>
+<b><i>[match_type]</b></i> (optional): This argument specifies the type of match you want. It can be set to 1 (for an approximate match - requires that the data is sorted in ascending order), -1 (for an approximate match - requires that the data is sorted in descending order), or 0 (for an exact match). If omitted, it defaults to 1.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/a9945b79-1bf7-47a4-a30b-d6c9d80ca3af)<br>
+
+<b>CHOOSE Function</b><br>
+>👉The <b><i>CHOOSE</b></i> function is used to select an item from a list of values based on a specified index number.<br>
+>👉Syntax: =CHOOSE(index_num, value1, value2, ...)<br>
+<b><i>index_num</b></i>: The index number that specifies which value to select from the list.<br>
+<b><i>value1, value2,</b></i>etc.: These are the values from which you want to choose based on the index_num.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/8a85bbea-b40f-410d-8ff8-02948c4ca9c0)<br>
+
+<b>AREAS Function</b><br>
+>👉The <b><i>AREAS</b></i> function is used to count the number of areas in a reference.<br>
+>👉Syntax: =AREAS(reference)<br>
+<b><i>reference</b></i>: The reference or range of cells for which you want to count the number of areas.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/4cd94b43-d79c-4051-b0e3-cd974d8a1573)<br>
+
+<b>ADDRESS Function</b><br>
+>👉The <b><i>ADDRESS</b></i> function is used to return the cell address (in text form) for a given row and column number within a worksheet.<br>
+>👉Syntax: =ADDRESS(row_num, column_num, [abs_num], [a1], [sheet])<br>
+<b><i>row_num</b></i>: The row number of the cell you want to reference.<br>
+<b><i>column_num</b></i>: The column number of the cell you want to reference.<br>
+<b><i>[abs_num]</b></i> (optional): This argument specifies whether the row and column references should be absolute, relative, or mixed. It can be set to 1 (Absolute row and column), 2 (Absolute row, relative column), 3 (Relative row, absolute column), or 4 (Relative row and column). If omitted, it defaults to 1 (absolute row and column).<br>
+<b><i>[a1]</b></i> (optional): This argument specifies the type of cell reference style to use. If set to TRUE or omitted, it uses the A1 reference style (e.g., "$A$1"). If set to FALSE, it uses the R1C1 reference style (e.g., "R1C1").<br>
+<b><i>[sheet]</b></i> (optional): This argument allows you to specify the name or index number of the worksheet in which the cell is located. If omitted, it defaults to the current worksheet.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/65cea91f-240c-4cb2-a766-c1c089cf2b4f)<br>
+
+<b>COLUMN Function</b><br>
+>👉The <b><i>COLUMN</b></i> function is used to return the column number of a reference.<br>
+>👉Syntax: =COLUMN([reference])<br>
+<b><i>[reference]</b></i>(optional): This argument specifies the cell or range of cells for which you want to find the column number. If omitted, it returns the column number of the cell in which the formula is entered.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/7f550429-4fb8-40b3-bf88-739608a5bd69)<br>
+
+<b>COLUMNS Function</b><br>
+>👉The <b><i>COLUMNS</b></i> function is used to count the number of columns in a range or array.<br>
+>👉Syntax: =COLUMNS(array)<br>
+<b><i>array</b></i>: The range or array for which you want to count the number of columns.<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/46d70ff7-c250-4183-a76a-9106870dc822)<br>
+
+<b>INDIRECT Function</b><br>
+>👉The <b><i>INDIRECT</b></i> function in Excel is a powerful tool that allows you to create dynamic references to cells, ranges, or named ranges based on text or cell values. It takes a text string as an argument and returns the reference specified by that text.<br>
+>👉Syntax: =INDIRECT(ref_text, [a1])<br>
+<b><i>ref_text</b></i>: This is the text string or cell reference that defines the reference you want to create dynamically. It can be a cell reference, a named range, or a text string that represents a cell or range address.<br>
+<b><i>[a1]</b></i> (optional): This argument specifies the reference style to use. If a1 is TRUE (or omitted), it uses the A1 reference style (e.g., "Sheet1!A1"). If a1 is FALSE, it uses the R1C1 reference style (e.g., "Sheet1!R1C1").<br>
+>![image](https://github.com/nthnlgmz/-Practice-of-information-data-and-time-and-lookup-functions/assets/143614589/6a9d3900-59c7-4f86-9eab-8cc146ba06b6)<br>
+
+
+
+
+
 
