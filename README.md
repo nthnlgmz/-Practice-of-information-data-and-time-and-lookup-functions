@@ -12,22 +12,20 @@ The functions listed below are grouped into INFORMATION FUNCTIONS category. <br>
 >-The Excel <b><i>ISERROR</b></i> function returns TRUE for any error type excel generates, including #N/A, #VALUE!, #REF!, #DIV/0!, #NUM!, #NAME?, or #NULL!<br>
 <b>Syntax</b><br>
 =ISERROR (value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/4460fc7f-2d7c-4862-bb93-dfe84d441edd)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/f265af9c-9a65-42b4-8c09-c0550887a97b)
 
 <b>ISERR Function</b><br>
 >-The Excel <b><i>ISERR</b></i> function returns TRUE for any error type except the #N/A error.<br>
 <b>Syntax</b><br>
 =ISERR(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/b2772d65-5d3f-482a-bc65-7a2f074d7156)
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/35cdbbdb-40c1-4c25-a3bf-1c1ad6aaae70)
 
 
 <b>ISNA Function</b><br>
 >-The Excel <b><i>ISNA</b></i> function returns TRUE when a cell contains the #N/A error and FALSE for any other value, or any other error type.<br>
 <b>Syntax</b><br>
 =ISNA(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/01ac19f4-2850-4411-bdc3-73207252946e)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/695f91da-ff7c-4eaf-adb6-bc30f0d5667a)
 
 <b>ERROR.TYPE Function</b><br>
 >-The Excel <b><i>ERROR.TYPE</b></i> function returns a number that corresponds to a specific error value.<br>
@@ -36,75 +34,66 @@ The functions listed below are grouped into INFORMATION FUNCTIONS category. <br>
 -See left for a key to the error codes returned by ERROR.TYPE<br>
 <b>Syntax</b><br>
 =ERROR.TYPE(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/67e66120-8a4b-412a-ba52-87f4ace8c9b1)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/9d6c9558-c46e-4b39-b82d-f6402d95069f)
 
 <b>ISNUMBER Function</b><br>
 >-The Excel <b><i>ISNUMBER</b></i> function returns TRUE when a cell contains a number, and FALSE if not.<br>
 <b>Syntax</b><br>
 ISNUMBER (value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/a4841fe8-25dc-4319-a352-fc7509823785)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/33903c02-c747-4b9b-97b5-f998be040a46)
 
 <b>ISEVEN Function</b><br>
 >-The Excel <b><i>ISEVEN</b></i> function returns TRUE when a numeric value is even, and FALSE for odd numbers.<br>
 -<b><i>ISEVEN</b></i> will return the #VALUE error when a value is not numeric.<br>
 <b>Syntax</b><br>
 =ISEVEN(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/bda214fd-e7ca-4e25-8ddb-44382337c355)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/25ee9538-6ae1-45d5-a0de-9b5933f23d8f)
 
 <b>ISODD Function</b><br>
 >-The Excel <b><i>ISODD</b></i> function returns TRUE when a numeric value is odd, and FALSE for even numbers.<br>
 -<b><i>ISODD</b></i> will return the #VALUE error when a value is not numeric.<br>
 <b>Syntax</b><br>
 =ISODD (value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/efa6e832-3d9b-4f7f-917a-a9801d00f72c)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/7a2bd857-e54f-4784-93ab-214994e356ca)
 
 <b>ISBLANK Function</b><br>
 >-The Excel <b><i>ISBLANK</b></i> function returns TRUE when a cell contains is empty, and FALSE when a cell is not empty.<br>
 <b>Syntax</b><br>
 =ISBLANK(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/b6e2537d-857d-4219-8f45-be4316cfe0fa)
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/f0d97086-c503-4864-8795-5ba4074decbb)
 
 <b>ISLOGICAL Function</b><br>
 >-The Excel <b><i>ISLOGICAL</b></i> function returns TRUE when a cell contains the logical values TRUE or FALSE, and returns FALSE for cells that contain any other value, including empty cells.<br>
 <b>Syntax</b><br>
 =ISLOGICAL(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/b61e00a7-901d-450a-b9ab-247ab0dc2d54)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/85fd26d3-c2ef-489d-9c5a-66746acbefd0)
 
 <b>ISTEXT Function</b><br>
 >-The Excel <b><i>ISTEXT</b></i> function returns TRUE when a cell contains a text, and FALSE if not.<br>
 <b>Syntax</b><br>
 =ISTEXT(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/d973050f-4d7f-4f57-869a-5b96ee83e91d)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/f78ea1f2-906d-43ff-ab8a-60455498ed85)
 
 <b>ISNONTEXT Function</b><br>
 >-The Excel <b><i>ISNONTEXT</b></i> function returns TRUE for any non text value, for example, a number, a date, a time, etc.<br>
 -The <b><i>ISNONTEXT</b></i> function also returns TRUE for blank cells, and for cells with formulas that return non text results.<br>
 <b>Syntax</b><br>
 =ISNONTEXT(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/773ae73b-1aa7-4cdb-900f-241f4aa969eb)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/b7a6255f-c89b-499f-8c54-caff29564081)
 
 <b>ISREF Function</b><br>
 >-The Excel <b><i>ISREF</b></i> returns TRUE when a cell contains a reference or space and FALSE if not.<br>
 -You can use the <b><i>ISREF</b></i> function to check if a cell contains a valid reference.<br>
 Syntax</b><br>
 =ISREF(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/c9d147ec-2517-494b-b55b-79393694d2cf)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/74ed4d38-62f7-4031-81b5-473acc49df77)
 
 <b>ISFORMULA Function</b><br>
 >-The Excel <b><i>ISFORMULA</b></i> function returns TRUE when a cell contains a formula, and FALSE if not.<br>
 -When a cell contains a formula <b><i>ISFORMULA</b></i> will return TRUE regardless of the formula's output or error conditions<br>
 <b>Syntax</b><br>
 =ISFORMULA(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/787080ac-1500-4f78-b2c0-44b2ea1f3b7e)
-
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/963898e1-84f3-4a31-bace-b1a85930318c)
 
 <b>TYPE Function</b><br>
 >-The Excel <b><i>TYPE</b></i> function returns a numeric code representing "type" in 5 categories:<br>
@@ -112,7 +101,7 @@ number = 1, text = 2, logical = 4, error = 16, and array = 64.<br>
 -Use <b><i>TYPE</b></i> when the operation of a formula depends on the type of value in a particular cell.<br>
 <b>Syntax</b><br>
 =TYPE(value)<br>
-![image](https://github.com/ralphgrm/Information-Functions/assets/134179620/5f4575c5-0dc7-4178-8a47-0ccdebb20025)
+![image](https://github.com/ralphgrm/Practice-of-information-data-and-time-and-lookup-functions/assets/134179620/0e678837-64ba-491d-92ac-b6e04c37dca8)
 
 # DATE-AND-TIME-FUNCTION
 
